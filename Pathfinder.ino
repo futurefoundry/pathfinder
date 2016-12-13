@@ -1,3 +1,12 @@
+/*
+
+PathFinder
+
+Last modified on December 13, 2016 by
+Mustafa Lokhandwala, Future Foundry. 
+
+*/
+
 #include <NewPing.h>
 
 #define TRIGGER_PIN   12 // Arduino pin tied to trigger pin on ping sensor.
