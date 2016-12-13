@@ -17,10 +17,7 @@ int currentResult;
 NewPing sonar(TRIGGER_PIN, ECHO_PIN); // NewPing setup of pins and maximum distance.
 
 void setup() {
-  pinMode(7, OUTPUT);
   pinMode(10, OUTPUT);
-  digitalWrite(7, LOW);
-  analogWrite(10, 190);
 }
 
 void loop() {
